@@ -18,7 +18,12 @@ git commit -m "my commit message"
 
 === Push
 ...........
-git push
+# This step is critical; must set the proper url that 
+#   'github' will work with
+# Declares that remote repository 'origin' and its 'url'
+git remote set-url origin https://github.com/JakAlof/vim.git
+# push to remote repository 'origin' branch 'master
+git push origin master
 ...........
 
 ---
