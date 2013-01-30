@@ -1,22 +1,26 @@
-= Using Git
-== Steps
-=== Clone your repository
+= Notes
+== Latex Vim Plugin
+* http://stackoverflow.com/questions/3723493/latex-and-vim-usage
+
+== Using Git
+=== Steps
+==== Clone your repository
 This is the equivalent of 'svn checkout'
 ............
 # Learning the bash shell
 git clone git://github.com/JakAlof/vim jaks.git
 ............
 
-=== Make your changes
+==== Make your changes
 Each time you make a change after already adding a file, you will need to add
 the file again.
 
-=== Commit
+==== Commit
 ...........
 git commit -m "my commit message"
 ...........
 
-=== Push
+==== Push
 ...........
 # This step is critical; must set the proper url that 
 #   'github' will work with
