@@ -1,11 +1,10 @@
+execute pathogen#infect()
+
 " do filetype detection and enable syntax highlighting
 filetype on
 filetype plugin indent on
 syntax enable
 "
-" call pathogen#infect()
-" filetype off
-" syntax on
 autocmd BufNewFile,BufRead *.ldg setfiletype ledger | compiler ledger
 " filetype plugin indent on
 
