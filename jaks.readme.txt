@@ -1,15 +1,15 @@
 = Using Git
 == Steps
 === Clone your repository
-This is basically checking out your 'vim' repository into a local directory
-'jaks.git.vim'
+This is the equivalent of 'svn checkout'
 ............
-# @github.com your userid='JakAlof' 
 # Learning the bash shell
-git clone git://github.com/JakAlof/vim jaks.git.vim
+git clone git://github.com/JakAlof/vim jaks.git
 ............
 
 === Make your changes
+Each time you make a change after already adding a file, you will need to add
+the file again.
 
 === Commit
 ...........
