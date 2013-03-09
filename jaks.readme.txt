@@ -7,6 +7,7 @@
 ==== Clone your repository
 This is the equivalent of 'svn checkout'
 ............
+# Learning the bash shell
 # clone repository
 git clone git://github.com/JakAlof/vim jaks.git
 ............
@@ -32,6 +33,8 @@ git commit -m "my commit message"
 ...........
 
 ==== Push
+git cloning errors https://help.github.com/articles/https-cloning-errors
+
 ...........
 # This step is critical; must set the proper url that 
 #   'github' will work with
@@ -39,6 +42,8 @@ git commit -m "my commit message"
 git remote set-url origin https://github.com/JakAlof/vim.git
 # push to remote repository 'origin' branch 'master
 git push origin master
+# Look at 'remote'
+git remote -v
 ...........
 
 ---
