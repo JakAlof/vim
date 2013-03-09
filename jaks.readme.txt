@@ -20,8 +20,7 @@ git status
 ............
 
 ==== Make your changes
-Each time you make a change after already adding a file, you will need to add
-the file again.
+Each time you make a change to a file, the file must be added again. 
 ............
 # add file to your next commit
 git add <filename> 
@@ -33,7 +32,8 @@ git commit -m "my commit message"
 ...........
 
 ==== Push
-git cloning errors https://help.github.com/articles/https-cloning-errors
+See the following helpful link related to cloning errors.
+https://help.github.com/articles/https-cloning-errors
 
 ...........
 # This step is critical; must set the proper url that 
