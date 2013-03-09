@@ -7,13 +7,24 @@
 ==== Clone your repository
 This is the equivalent of 'svn checkout'
 ............
-# Learning the bash shell
+# clone repository
 git clone git://github.com/JakAlof/vim jaks.git
+............
+
+==== Status
+What files are modified, untracked etc.
+............
+# check status
+git status
 ............
 
 ==== Make your changes
 Each time you make a change after already adding a file, you will need to add
 the file again.
+............
+# add file to your next commit
+git add <filename> 
+............
 
 ==== Commit
 ...........
