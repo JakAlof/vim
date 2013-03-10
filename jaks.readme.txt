@@ -47,6 +47,12 @@ git push origin master
 git remote -v
 ...........
 
+==== Update
+Update a project
+...........
+git update
+...........
+
 ---
 // vim: set syntax=asciidoc:
 ---
