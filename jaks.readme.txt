@@ -16,12 +16,24 @@ git config --global user.email "your_email@example.com"
 This is the equivalent of 'svn checkout'
 ............
 # Learning the bash shell
-git clone git://github.com/JakAlof/vim jaks.git
+# clone repository
+cd $HOME/jaks.git
+git clone git://github.com/JakAlof/vim vim
+............
+
+==== Status
+What files are modified, untracked etc.
+............
+# check status
+git status
 ............
 
 ==== Make your changes
-Each time you make a change after already adding a file, you will need to add
-the file again.
+Each time you make a change to a file, the file must be added again. 
+............
+# add file to your next commit
+git add <filename> 
+............
 
 ==== Commit
 ...........
@@ -29,6 +41,9 @@ git commit -m "my commit message"
 ...........
 
 ==== Push
+See the following helpful link related to cloning errors.
+https://help.github.com/articles/https-cloning-errors
+
 ...........
 # This step is critical; must set the proper url that 
 #   'github' will work with
@@ -36,6 +51,14 @@ git commit -m "my commit message"
 git remote set-url origin https://github.com/JakAlof/vim.git
 # push to remote repository 'origin' branch 'master
 git push origin master
+# Look at 'remote'
+git remote -v
+...........
+
+==== Update
+Update a project
+...........
+git update
 ...........
 
 ---
