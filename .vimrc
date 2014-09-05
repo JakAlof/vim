@@ -23,6 +23,10 @@ set cpoptions+=$
 set autoindent
 set ruler
 
+" Vertical bar placed at column 80
+set colorcolumn=80
+hi ColorColumn ctermbg=lightgrey
+
 " .vimrc file is automatically sourced when saved
 autocmd! bufwritepost .vimrc source %
 
