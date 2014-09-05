@@ -8,8 +8,8 @@
 https://help.github.com/articles/set-up-git
 
 ............
-git config --global user.name "Your Name Here"
-git config --global user.email "your_email@example.com"
+git config --global user.name "Jak Alof"
+git config --global user.email "jakalof@gmail.com"
 ............
 
 ==== Clone your repository
